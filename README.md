@@ -252,6 +252,6 @@ Open the browser to `https://localhost:5115/swagger/`
 
 Although ASP.NET Core webapi template is preconfigured to bootstrap the MVC with SQL as the default database, with a little legwork, we can create the service necessary for integration with MongoDB, or MySQL following the steps above.  The hightlights of this article are  
 
-*[Database],driver* is versatile and can be defined in the appsettings as variables.  Data can then be accessed via `Service`
+*[Database].driver* is versatile and can be defined in the appsettings as variables.  Data can then be accessed via `Service`
 
 *Controller* specified for CRUD can be pointed to specific collection(s) defined in the models.
