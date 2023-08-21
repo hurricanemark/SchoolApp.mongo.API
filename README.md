@@ -98,7 +98,7 @@ public class PlaylistController: Controller {
 touch Models\MongoDBSettings.cs
 ```
 
-```C#
+```c#
 using SchoolApp.mongo.API.Models;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
@@ -147,7 +147,7 @@ public class MongoDBService {
 touch Models\Playlist.cs
 ```
 
-```C#
+```c#
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System.Text.Json.Serialization;
@@ -175,7 +175,7 @@ public class Playlist {
 touch Services\MongoDBService.cs
 ```
 
-```C#
+```c#
 using SchoolApp.mongo.API.Models;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
@@ -236,7 +236,7 @@ info: Microsoft.Hosting.Lifetime[0]
       Content root path: D:\devel\C-SharpProjs\LINKEDIN_TRAINING_2023\.NET7API\SchoolApp.mongo.API
 ```
 
-Open the browser to https://localhost:5115/swagger/
+Open the browser to `https://localhost:5115/swagger/`
 
 ## Snapshots
 
