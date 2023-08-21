@@ -95,7 +95,7 @@ public class PlaylistController: Controller {
 <br>
 
 ```powershell
-touch Models/MongoDBSettings.cs
+touch Models\MongoDBSettings.cs
 ```
 
 ```C#
@@ -144,7 +144,7 @@ public class MongoDBService {
 **Define route** `playlist`
 
 ```powershell
-touch Models/Playlist.cs
+touch Models\Playlist.cs
 ```
 
 ```C#
@@ -172,7 +172,7 @@ public class Playlist {
 ## Create `Services`
 
 ```powershell
-touch Services/MongoDBService.cs
+touch Services\MongoDBService.cs
 ```
 
 ```C#
